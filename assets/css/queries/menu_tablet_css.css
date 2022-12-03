@@ -1,0 +1,69 @@
+@media screen and (min-width: 768px) {
+
+
+h4 {
+    font-size: 18px;
+}
+header h1 {
+    margin-left: 2%;
+}
+header img {
+    height: 423px;
+}
+main {
+    margin-top: 325px;
+    width: 70%;
+    margin-left: 15%;
+    align-items: center;
+}
+.name {
+    gap: 24px;
+}
+.menu {
+    width: 70%;
+    margin-top: 20px;
+}
+.card {
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1); 
+}
+.plate {
+    margin: 12px 0 0 22px;
+}
+.plats h3, .underlineplats {
+    margin-left: 0%;
+}
+footer {
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+ }
+ .listing {
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+.listing:nth-child(2) {
+    order: 1;
+}
+footer h2:nth-child(1) {
+    order: 2;
+}
+.links {
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.fa-handshake-angle {
+   margin-top: 3px;
+}
+footer a {
+   white-space: nowrap;
+   font-size: 14px;
+}
+footer h2 {
+   font-size: 20px;
+   margin-left: 70px;
+   font-weight: 400;
+}
+}
